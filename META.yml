@@ -1,0 +1,29 @@
+--- #YAML:1.0
+name:               WebService-Forrst
+version:            0.01
+abstract:           Wrapper for the forrst.com API
+author:
+    - Squeeks <squeek@cpan.org>
+license:            perl
+distribution_type:  module
+configure_requires:
+    ExtUtils::MakeMaker:  0
+build_requires:
+    ExtUtils::MakeMaker:  0
+requires:
+    JSON:        2
+    LWP:         0
+    perl:        5.008
+    Test::More:  0.88
+    URI:         0
+resources:
+    homepage:    http://github.com/squeeks/WebService-Forrst
+    repository:  git://github.com/squeeks/WebService-Forrst.git
+no_index:
+    directory:
+        - t
+        - inc
+generated_by:       ExtUtils::MakeMaker version 6.56
+meta-spec:
+    url:      http://module-build.sourceforge.net/META-spec-v1.4.html
+    version:  1.4
